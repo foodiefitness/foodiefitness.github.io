@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.backscreen{
+    background: url(breakfast.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
