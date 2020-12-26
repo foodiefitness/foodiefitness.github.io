@@ -27,7 +27,6 @@
     
 }
 
-
 .navbar ul{
     float:right;
     margin-right: 20px;
@@ -54,9 +53,6 @@
     background: brown;
     border-radius: 2px;
 }
-
-
-
 .backscreen .middle{
     position:absolute;
     top:55%;
@@ -81,7 +77,6 @@
     text-align: center;
     font-family: cursive;
     background: rgba(0,0,0,0.4);
-    
 }
 
 
