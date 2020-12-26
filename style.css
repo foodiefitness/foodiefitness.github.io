@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.backscreen{
+    background: url(breakfast.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    height:75px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    position: fixed;
+}
+.logo{
+    width: 140px;
+    height:auto;
+    padding-top: 1px;
+    background-color: white;
+    border-radius: 100px;
+    margin-left: 20px;
+    margin-top: 40px;
+    position: fixed;
+    
+}
+
+
+.navbar ul{
+    float:right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 6px; 13px;
+     font-family: 'Calisto MT' , serif;  
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: brown;
+    border-radius: 2px;
+}
+
+
+
+.backscreen .middle{
+    position:absolute;
+    top:55%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.middle h1{
+    color:white;
+    font-size: 65px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.middle h2{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    font-family: cursive;
+    background: rgba(0,0,0,0.4);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
